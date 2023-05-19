@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/12df654b97.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilo.css">
+
+  <!-- Google Fonts (Kanit 500, Newsreader 600 e Poppins 400) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Newsreader:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Favicon (ícone que aparece na aba do navegador) -->
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+  <title>Start Bootstrap</title>
+</head>
+<body>
+  <!-- INÍCIO DO CABEÇALHO -->
+  <header id="topo">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded fixed-top">
+      <div class="container">
+        <!-- Logotipo -->
+        <a class="navbar-brand" href="index.html">
+          Start Bootstrap
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(Página atual)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="./sobrenos.html">Sobre Nós</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfólio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- FINAL DO CABEÇALHO -->
+
+  <!-- INÍCIO INTRODUÇÃO -->
+  <section class="intro">
+    <div class="container">
+        <div class="row text-center justify-content-center text-white">
+            <h1 class="display-4">Contato</h1>
+        </div>
+    </div>
+</section>
+<!-- FINAL INTRODUÇÃO --> 
+
+<!-- INÍCIO FORMS -->
+<div class="fomrulario">
+    <div class="container py-4">
+        <h3 class="text-center">Deixe seu recado, envie suas dúvidas<br> ou sugestões.</h3>
+        <form>
+            <!-- Name -->
+            <div class="form-group">
+            <input type="email" class="form-control border-top-0 border-left-0 border-right-0" id="exampleFormControlInput1" placeholder="Nome Completo">
+            </div>
+
+            <!-- e-mail -->
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4"></label>
+                  <input type="email" class="form-control border-top-0 border-left-0 border-right-0" id="inputEmail4" placeholder="Email">
+                </div>
+
+                <!-- Telephone -->
+                <div class="form-group col-md-6">
+                  <label for="inputTelephone"></label>
+                  <input type="tel" class="form-control border-top-0 border-left-0 border-right-0" id="inputTelephone" placeholder="Telefone">
+                </div>
+              </div>
+
+            <!-- Assunto -->
+            <div class="form-group">
+                <label for="inputAssunto"></label>
+                <input type="text" row="5" class="form-control border-top-0 border-left-0 border-right-0" id="inputAssunto" placeholder="Assunto">
+            </div>
+            
+            <!-- Message -->
+            <div class="form-group">
+                <label for="inputAssunto"></label>
+                <textarea class="form-control border-top-0 border-left-0 border-right-0" id="exampleFormControlTextarea1" rows="5" placeholder="Mensagem"></textarea>
+              </div>
+        </form>
+        <button type="button" class="btn btn-outline-black bg-white px-4 border-dark">Enviar</button>
+    </div>
+</div>
+<!-- FINAL FORMS -->
+
+
+<!-- INÍCIO MAPS -->
+<div class="Maps ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9923833240045!2d-47.65045811282933!3d-22.728524478346138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631a09ac7b2e1%3A0x197834b105f878e3!2sSenac%20Piracicaba!5e0!3m2!1spt-BR!2sbr!4v1684438035682!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- FINAL MAPS -->
+
+<!-- INÍCIO INFO -->
+<section class="info mt-5 mb-2">
+    <div class="container">
+        <div class="row">
+          
+          <!-- Início Item 01 -->
+          <div class="col-lg-4">
+            <div class="text-center shadow p-3 mb-5 bg-white rounded mr-3">
+                <img src="./imagens/icones/phone-call.png" alt="Phone call" class="img-fluid mb-3">
+                <h3>Telefone</h3>
+                <p>(19) 2105-0199</p>
+            </div>
+          </div>
+
+              <!-- Início Item 02 -->
+          <div class="col-lg-4">
+            <div class="text-center mb-5 shadow p-3 mb-5 bg-white rounded mr-3">
+                  <img src="./imagens/icones/mail.png" alt="icon E-mail" class="img-fluid mb-3">
+                  <h3>E-mail</h3>
+                  <p>piracicaba@sp.senac.br</p>
+            </div>
+          </div>
+
+
+              <!-- Início Item 03  -->
+          <div class="col-lg-4">
+            <div class="text-center shadow p-3 mb-5 bg-white rounded mr-3">
+                  <img src="./imagens/icones/pin.png" alt="Endereço" class="img-fluid mb-3">
+                  <h3>Endereço</h3>
+                  <p>R. Santa Cruz, 1148</p>
+            </div>
+          </div>
+
+          </div>
+        </div>
+    </div>
+</section>
+<!-- FINAL BOTTONS -->
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ <!-- INÍCIO BAIXE O APP -->
+  <section class="jumbotron jumbotron-fluid mb-0">
+    <div class="container">
+      <h2 class="mb-4 text-white text-center">Baixe o app agora!</h2>
+
+      <!-- Botões -->
+      <div class="d-flex flex-column flex-lg-row text-center justify-content-center">
+        <!-- Google Play -->
+        <a href="#" target="_blank" class="mb-4 mb-lg-0 mr-lg-3">
+          <img src="./imagens/google-play.png" alt="logo Google Play">
+        </a>
+
+        <!-- Apple Store -->
+        <a href="#" target="_blank">
+          <img src="./imagens/app-store.png" alt="logo Apple Store">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- FINAL BAIXE O APP -->
+
+  <!-- INÍCIO FOOTER -->
+  <footer class="rodape py-3 text-white text-center">
+    <div class="container">
+      &copy; Copyright 2023 - Start Bootstrap - Todos os direitos reservados
+      <br>
+      Desenvolvido por <a href="#" target="_blank">Joabe Veloso</a>
+    </div>
+  </footer>
+  
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
